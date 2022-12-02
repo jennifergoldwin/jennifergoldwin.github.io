@@ -28,7 +28,7 @@
 <body>
     <header id="header" class="header-tops">
         <div class="container">
-            <!-- <h1>I'm <span class="typed"></span></h1> -->
+            
             <h1 id = "typed" class="typed-items" data-typed-person="Hello," ><span class="typed"></span></h1>
             <h1><a href="index.html">Jennifer Goldwin</a></h1>
             <h2> I'm an <span>Application Developer</span></h2>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="text-left">
-              <a href= "https://drive.google.com/file/d/1CqP9INeUv-Un2ONDi2Jk0mFlvrC1gHmV/view?usp=sharing" target="_blank" download="CV-Jennifer Goldwin.jpg">
+              <a href= "https://drive.google.com/file/d/1AgIsr_xGjzjubJW7n_8DHTw-iZJz9Lbc/view?usp=sharing" target="_blank" download="CV-Jennifer Goldwin.jpg">
                 <button class= "button-cv "type="submit">Download CV</button>
               </a>
               
@@ -72,12 +72,12 @@
     
           <div class="row">
             <div class="col-lg-4" data-aos="fade-right">
-              <img src="assets/img/me.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/me.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>Application Developer</h3>
               <p class="font-italic">
-                Specialize in mobile phone applications, develop application programming interfaces (APIs) to support mobile functionality while keeping up to date with terminology, concepts and best practices for coding mobile apps.
+                Specialize in web and mobile phone applications, develop application programming interfaces (APIs) to support mobile functionality while keeping up to date with terminology, concepts and best practices for coding mobile apps.
               </p>
               <div class="row">
                 <div class="col-lg-6">
@@ -89,14 +89,14 @@
                 </div>
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 21</li>
+                    <li ><i class="icofont-rounded-right"></i> <strong>Age:</strong> <span id="age">21</span></li>
                     <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelor</li>
                     <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> jennifer.goldwin@binus.ac.id</li>
                   </ul>
                 </div>
               </div>
               <p>
-                Hi! I'm Jennifer Goldwin. I'm a Binus University student, majoring in Mobile Application and Technology. I'm a hard working, always willing to learn new skills. I'm able to work independently in busy environment and also within a team setting.
+                Hi! I'm Jennifer Goldwin. I'm a Binus University student, majored in Mobile Application and Technology. I'm a hard working, always willing to learn new skills. I'm able to work independently in busy environment and also within a team setting.
               </p>
             </div>
           </div>
@@ -187,11 +187,24 @@
                 <p>
                   <ul>
                     <li>Bachelor of Computer Science in Mobile Application and Technology.</li>
-                    <li>Expected Graduate : 2022.</li>
-                    <li>Current GPA : 3.90 / 4.0.</li>
+                    <li>Graduate : July 2022.</li>
+                    <li>Current GPA : 3.87 / 4.0.</li>
                   </ul>
                 </p>
               </div>
+
+              <h3 class="resume-title">Informal Education</h3>
+              <div class="resume-item">
+                <h4>FGA Scholarship HCIA Huawei AI</h4>
+                <h5>July 2021 - September 2021</h5>
+                <p><em>Digitalent Fresh Graduate Academy by Kominfo</em></p>
+                <p>
+                <ul>
+                  <li>Learning how to systematically understand the AI development history, the Huawei Ascend AI system, the full-stack all-scenario AI strategy and the algorithms related to traditional machine learning and deep learning; TensorFlow and MindSpore.</li>
+                </ul>
+                </p>
+              </div> 
+
               <h3 class="resume-title">Organization Experience</h3>
               <!-- <div class="resume-item pb-0"> -->
               <div class="resume-item">
@@ -204,6 +217,7 @@
                 </ul>
                 </p>
               </div>
+            
               <div class="resume-item">
                 <h4>Academic Ambassador</h4>
                 <h5>March 2020 - August 2020</h5>
@@ -214,11 +228,43 @@
                 </ul>
                 </p>
               </div>
+
+              <div class="resume-item">
+                <h4>Additional Activities</h4>
+                <h5>2020-2021</h5>
+                <!-- <p><em>Binus Square Student Committee, Jakarta, Indonesia</em></p> -->
+                <p style="margin-top: -20px !important;">
+                <ul>
+                  <li>Activities: Finalist Jenius Hackathon 2020, Finalist App Innovation
+                    Competition 2020, Participant SoCS Hackathon Binus University 2020, Participant Anforcom 2021,
+                    Participant FGA Scholarship HCIA Huawei AI.</li>
+                </ul>
+                </p>
+              </div>
+
+
               <!-- </div> -->
+
+              <h3 class="resume-title">Personal Certification</h3>   
+              <div class="resume-item">
+                <h4>Finalist App Innovation 2020</h4>
+                <h5>Issued November 2020 - No Expiration Date</h5>
+                <p><em>Digitalent Fresh Graduate Academy by Kominfo</em></p>
+              </div> 
+              <div class="resume-item">
+                <h4>Participant Digital Innovation Challenge</h4>
+                <h5>Issued May 2021 - No Expiration Date</h5>
+                <p><em>Universitas Sebelas Maret</em></p>
+              </div> 
+              <div class="resume-item">
+                <h4>HCIA Huawei AI</h4>
+                <h5>Issued September 2021 - Expires September 2024</h5>
+                <p><em>Digitalent Fresh Graduate Academy by Kominfo</em></p>
+              </div>
             </div>
+
             <div class="col-lg-6">
               <h3 class="resume-title">Work Experience</h3>
-                
               <div class="resume-item">
                 <h4>Full Stack Programmer</h4>
                 <h5>November 2021 - Present</h5>
@@ -227,12 +273,11 @@
                 <ul>
                   <li>Write well-designed, testable, efficient code by using best software development practices.</li>
                   <li>Create website layout/user interfaces by using standard HTML/CSS practices.</li>
-                  <li>Integrating data from various back-end services and databases.</li>  
+                  <li>Integrating data from various back-end services and databases (especially in Web3 and Solidity).</li>  
                   
                 </ul>
                 </p>
               </div>
-    
               <div class="resume-item">
                 <h4>Application Developer Intern</h4>
                 <h5>February 2021 - Present</h5>
@@ -247,7 +292,6 @@
                 </ul>
                 </p>
               </div>
-    
               <div class="resume-item">
                 <h4>Promotion Team</h4>
                 <h5>October 2018 - Present</h5>
@@ -272,160 +316,161 @@
           </div>
     
         </div>
-      </section>
-      <section id="portfolio" class="portfolio">
-        <div class="container">
-    
-          <div class="section-title">
-            <h2>Portfolio</h2>
-            <p>My Projects</p>
+    </section>
+
+    <!--Portfolio Section-->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+  
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>My Projects</p>
+        </div>
+  
+        <!-- <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
           </div>
-    
-          <!-- <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
-                <li data-filter=".filter-web">Web</li>
-              </ul>
+        </div> -->
+  
+        <div class="row portfolio-container">
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/pasarku.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>PasarKu</h4>
+                <p>App Innovation Competition 2020</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/pasarku.png" data-gall="portfolioGallery" class="venobox" title="PasarKu"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <div >
+                <img  src="assets/img/smdc.png" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>SMDC</h4>
+                <p>App PT. Charoen Pokphand Indonesia</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/smdc.png" data-gall="portfolioGallery" class="venobox" title="Sales Mobile Data Capture (SMDC)"><i class="bx bx-plus"></i></a>
+                </div>
+              </div> 
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/creo.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Creo Engine</h4>
+                <p>www.creoengine.com</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/creo.png" data-gall="portfolioGallery" class="venobox" title="Creo Engine"><i class="bx bx-plus"></i></a>
+                 </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/evermore.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Evermore Knights</h4>
+                <p>www.evermoreknights.com</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/evermore.png" data-gall="portfolioGallery" class="venobox" title="Evermore Knights"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/slime.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Slime Haven</h4>
+                <p>www.slimehaven.com</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/slime.png" data-gall="portfolioGallery" class="venobox" title="Slime Haven"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/nomina.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Nomina Games</h4>
+                <p>www.nominagames.com</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/nomina.png" data-gall="portfolioGallery" class="venobox" title="Nomina Games"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> 
+  
+          
+  
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
             </div>
           </div> -->
-    
-          <div class="row portfolio-container">
-    
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              
-                <a href="https://github.com/jennifergoldwin/PasarKu" target="_blank"></a>
-                  <img src="assets/img/project-1.png" class="img-fluid" alt="">
-                </a>
-                <!-- <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>App</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
-                </div> -->
-              
-            </div>
-    
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Web 3</h4>
-                  <p>Web</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-    
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <!-- <div class="portfolio-wrap"> -->
-                <img src="assets/img/project-2.png" class="img-fluid" alt="">
-                <!-- <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>App</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
-                </div> -->
-              <!-- </div> -->
-            </div>
 <!--     
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Card 2</h4>
-                  <p>Card</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
-    
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Web 2</h4>
-                  <p>Web</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
+          </div> -->
+  
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
-            </div> -->
-    
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <!-- <div class="portfolio-wrap"> -->
-                <img src="assets/img/project-3.png" class="img-fluid" alt="">
-                <!-- <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>App</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
-                </div> -->
-              <!-- </div> -->
             </div>
-    
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Card 1</h4>
-                  <p>Card</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-<!--     
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Card 3</h4>
-                  <p>Card</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-    
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Web 3</h4>
-                  <p>Web</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-    
-          </div>
-    
+          </div> -->
+  
         </div>
-      </section>
+  
+      </div>
+    </section>
       <!--Contact-->
       <!-- <section id="contact" class="contact">
         <div class="container">
@@ -523,5 +568,8 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script>
+    
+    </script>
 </body>
 </html>
